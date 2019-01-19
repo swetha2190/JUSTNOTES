@@ -1,0 +1,26 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="ProductDetails" type="PD" minOccurs="1" />
+<xs:complexType name="PD">
+<xs:sequence>
+<xs:element name="Product" type="Prd" minOccurs="1" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Prd">
+<xs:sequence>
+<xs:element name="Name" type="xs:string" />
+<xs:element name="Description" type="xs:string" />
+<xs:element name="Price" type="xs:nonNegativeInteger" />
+<xs:element name="Quantity" type="xs:PositiveInteger" />
+</xs:sequence>
+</xs:complexType>
+
+<simpleType name="prc">
+<xs:registration base ="xs:nonNegativeInteger">
+    <xs:minInclusive value="200"/>
+    <xs:maxInclusive value="1200"/>
+    </xs:registration>
+    </simpleType>
+</xs:schema>
+<!------xmlns =  xml namespace xs= alias for this---->

@@ -1,0 +1,259 @@
+
+
+
+------------------------------------16th jan----------------
+
+
+1) javascript 3 chapters
+2) LINQ to sql classes
+3) read from xml
+4) write to xml
+
+-----------------------
+
+1. html -used for static web pages
+
+2.for dynamic pages we need scripting 
+
+3.scripting is of two types based on where they run
+a) client side scripting
+b) server side scripting
+
+primitive types in js
+numbers
+string
+boolean
+
+Q) create label textbox ,and one add button and display addition of two numbers.
+
+syntax to read:: var value = document.<feild_name>.<form_name>.value
+or
+document.getelementbyid("id").value
+
+var name=document.id.value
+or
+var name =document.feildname.value
+
+Q)create 
+login screen with 
+usename and password
+validation:: highlight text box with red and display msg
+password should have special character and a number
+pass should not start with number
+on success redirect  (href).
+
+user name : administrator password admin@123
+redirect to homepage
+else
+
+invalid username and password
+
+---------------17th jan--------------------
+
+task
+xml
+xsd
+
+read from xml and write into xml
+linq to sql classes
+=================
+what is js
+y js
+how to reffer an js file into html
+why js called loosely typed
+what r defferent things can be achieved using js
+
+alternate way for regEXP 
+
+document.form.text.match(p)
+
+what is markup lan?
+1- made of tags
+2-child tag is nested inside parent tag
+3-only one root element
+4-every opening tag has a closing tag
+
+===== xml =========
+send and recieve data across
+diff hardware and diff software
+diff languages 
+diff technologies
+diff devices
+---> any format (extensible)
+---> xml is a plain text file
+---> extensible markup language (xml)
+---> used to describe and define data 
+---> and to exchange data across dissimilar environments
+---> elements are building blocks of xml
+---> they describe and define data
+--->xml has evolved from SGML
+
+q) create employee details
+
+wellformed xml
+==============
+
+should have PI
+one root element
+In one root element all elements should be nested inside
+every opening tag should have closing tag
+
+attribute :: additional information in an element is an attribute
+attribute  values should be in double quotes
+to display > &gt; <lt; &quote;
+
+xml parse checks for all the conditions
+
+if you want to search and it is unique go for attribute
+
+#xml doesnot check for order/sequence of elements & datatype of data
+
+
+----> for strict check on order/sequence of elements DTD
+
+--->strict check on order/sequence of elements datatype of data
+
+xml schema definition .xsd
+===================================JQUERY=================
+
+--> jquery is a javascript library
+--> its lightweight
+--> it can b added to any technology
+--> add html tag at runtime
+--> handle events and validation
+--> huge collection of widges
+--> three libraries 1)jqueryUI 2)JQUERYvalidation 3)jquery
+diff things we can achieve
+-->read and wite ,animation effects,validate,
+
+start with $ document.ready is optional
+
+============LINQ TO SQL CLASSES===============
+
+-->c# console application --solution explorer--project name--right click--add---new--item-data--linq to sql classes
+
+-->complete the wizard
+
+-->========================ASP.NET=========================
+
+-->web technology used for web applications 
+
+-->asp.net evolved from ASP which is active server pages
+
+-->STEPS for creating first program in visual studio(2017 version)
+
+-->new--project--web--asp.net web application(.net framework)--select solution if you work with many related project
+
+--select empty/webforms (webforms gives readymade code)  --webforms(checkbox tick)--
+
+-->view--solution explorer--right click --add--webform/webpage --give extension home.aspx--u get a code now
+
+-->every class in your asp.net inherits class 'SYSTEM.WEB.UI.PAGE'
+
+-->EVERY CLASS IS A PARTIAL CLASS IN ENTIRE ASP.NET
+
+-->
+
+-->
+
+-->
+
+-->
+
+-->
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

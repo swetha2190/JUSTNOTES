@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding= "UTF-8" ?>
+<employeeDetails>
+    
+<employee>
+    <empName> swetha vanam</empName>
+    <empId>2360738</empId>
+    <designation> BA</designation>
+    <department>IT</department>
+    <salary>2,00,000</salary>
+    <managerID>223355</managerID>
+    
+    
+    </employee>
+    <employee>
+    <empName> Shweta</empName>
+    <empId>2360738</empId>
+    <designation> develepor</designation>
+    <department>IT</department>
+    <salary>2,00,000</salary>
+    <managerID>223355</managerID>
+    
+    
+    </employee>
+    <employee>
+    <empName> vanam</empName>
+    <empId>2360738</empId>
+    <designation> trainee</designation>
+    <department>IT</department>
+    <salary>2,00,000</salary>
+    <managerID>223355</managerID>
+    
+    
+    </employee>
+
+</employeeDetails>

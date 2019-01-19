@@ -1,0 +1,64 @@
+fill method of data adapter is used to fill data from database
+into dataset
+
+adap.Fill(ds);
+or
+adap.Fill(ds,"tablename");
+
+fill method
+1.opens connection
+2.executed query
+3.retrives data
+4.fills data into dataset
+5.closes connection
+
+update method of data adapter is used to update data from dataset to database
+
+Data set
+
+many tables ---datatable collection
+one table data table 
+many rows ---------datarow collection
+one row ----dtarow
+many columns ---data coluumn collection
+one column -- data column
+primary key
+extendedProperties
+dataRelationCollection
+dataRelation
+data view
+
+data travelss in d form of xml
+xml with schema file is typed dataset
+xml without schema file is untyped dataset
+
+
+
+
+
+
+
+3 ways to pass parameters 
+
+first
+cmd.Parameters.AddWithValue("@id", id);
+
+second way
+cmd.Parameters.Add(new SqlParameter("@id",SqlDbType.Int));
+cmd.Parameters["@id"].Value = id;
+
+third way
+cmd.parameters.add(new sqlparameter("@id",id))
+
+
+
+two imp properties you need to set via using dataView
+
+1.db.table
+2.db.rowFilter
+
+
+
+
+
+
